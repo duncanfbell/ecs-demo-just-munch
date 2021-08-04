@@ -4,7 +4,6 @@ FROM public.ecr.aws/amazonlinux/amazonlinux:2
 RUN yum install -y \
     curl \
     httpd \
-    php \
  && ln -s /usr/sbin/httpd /usr/sbin/apache2
 
 # Install app
